@@ -4,9 +4,14 @@
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
+    height: 4000px;
     background-color: #000;
     color: black;
     font-family: "Oxygen" , sans-serif;
@@ -177,7 +182,7 @@ aside nav a:hover {
     background-color: white;
     border-color: black;
     font-size: 30px;
-    animation: rotate 1s linear infinite;
+    animation: rotate 1s linear 2;
     -webkit-animation: rotate 1s linear 2;
     -moz-animation: rotate 1s linear 2;
     -ms-animation: rotate 1s linear 2;
@@ -230,14 +235,14 @@ aside nav a:hover {
 }
 
 .about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/car2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/car2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 90%;
     margin-left: 7%;
 }
 .contact{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/car2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/car1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 90%;
@@ -245,11 +250,12 @@ aside nav a:hover {
 }
 
 .projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/nature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/nature.jpg);
     background-position: center;
     background-attachment: fixed; 
     background-size: 100% 90%;
     margin-left: 7%;
+
 }
 
 
@@ -298,9 +304,128 @@ aside nav a:hover {
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 20px;
+    padding-bottom: 100px;
 }
 
 .body {
     background-color: #000;
+}
+
+.container h2, .sub-heading p {
+    color: white;
+} 
+
+.proj {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: red;
+    width: 90%;
+    height: 500px;
+    margin: 20px 0px 50px 10px;
+    padding-top: 400px;
+    transition: all .7s ease-in-out;
+    border-radius: 20px;
+    
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.view, .github {
+    text-align: center;
+    border-radius: 30px;
+}
+
+.view {
+    background-color: red;
+    color: black;
+    border-color: black;
+}
+
+.github {
+    background-color: black;
+    color: red;
+    border-color:red;
+}
+
+.proj p {
+    color: white;
+}
+
+.proj:hover {
+   transform: scale(1.1);
+   
+}
+
+
+.hover-tint {
+    width: 100%;
+    height: 0px;
+    background: red;
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease; 
+}
+
+.proj:hover .hover-tint {
+    height: 440px;
+    border-radius: 20px;
+
+}
+
+.project1 {
+    background-image: url(images/proj1.png);
+    background-position: center;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+label {
+    color: #b2b2b2;
+}
+
+form input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 1px solid #222;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
+}
+
+form input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border: 2px solid red;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border: 1px solid #222;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+    color: black;
 }
