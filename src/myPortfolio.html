@@ -5,6 +5,8 @@
         <link rel="stylesheet" type="text/css" href="portfolioStyle.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -16,7 +18,7 @@
         <div class="body">
         <aside>
             <nav>
-                <a classhref="#home"><i class="fas fa-home"></i>
+                <a href="#home"><i class="fas fa-home"></i>
                     <p>Home</p>
                 </a>
 
@@ -57,8 +59,8 @@
                     <h2><span class="text2">Software Engineer // <span class="last-name">Full-Stack Developer</span></span></h2>
                 </h1>
                 <div class="links">
-                <a class="linkedin" href="https://www.linkedin.com/in/javaughn-burke-115318181/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a class="github" href="https://github.com/javaughn98" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/javaughn-burke-115318181/" target="_blank"><i class="fab fa-linkedin-in"></i><p>Javaughn Burke</p></a>
+                <a class="github" href="https://github.com/javaughn98" target="_blank"><i class="fab fa-github"></i><p>javaughn98</p></a>
                 </div>
             </header>
             
@@ -71,9 +73,7 @@
                         <h2>ABOUT ME</h2>
                         <div class="sub-heading">
                             <p>
-                                Hard work is painful when life is devoid of purpose. But when you live for something <br>
-                                greater than yourself and the gratification of your own ego, then hard work becomes a labor<br>
-                                of love.
+                                Breif description about me and my aquired skillset.
                             </p>
                         </div>
                     </div>
@@ -81,8 +81,67 @@
 
 
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 text-left">
+                        <div class="personal-info">
+                            <h5>Personal Background</h5>
+                            <p>
+                                Hey, thanks for visiting my website! My name is <span style="color: red;">Javaughn Burke</span>.<br><br>
+                                
+                                I am a student at the University of Guelph, currently persuing a bachelor's degree in computing. I major in Computer Science with a minor in<br>
+                                Mathematics currently in my second year heading toward third in the upcomming year. <br><br>
 
+                                In order to achieve my goal in computing I intend to gain as much knowledge and experience<br>
+                                as possible in programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-bottom: 50px;">
+                    <div class="col-sm-4 text-center">
+                        <div class="tech-skills">
+                            <h5> Languages/Frameworks:</h5>
+                                <img src="images/c.png">
+                                <img src="images/python.png">
+                                <img src="images/java.png">
+                                <img src="images/html.png">
+                                <img src="images/js.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <div class="environment">
+                            <h5> Development Environment:</h5>
+                                <img src="images/linux.png">
+                                <img src="images/apple.png">
+                                <img src="images/microsoft.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <div class="tools">
+                            <h5>Tools:</h5>   
+                                <img src="images/vs.png">
+                                <img src="images/eclipse.png">
+                                <img src="images/atom.png">
+                                <img src="images/git.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12 text-left">
+                        <div class="soft-skills">
+                            <h5>Soft Skills</h5>
+                            <p>
+                                Aquired great communication skills from socializing and working in groups which I<br> enjoy participating in.<br><br>
+
+                                Very good at working under pressure, great time management skills and very adaptable to<br> various situations.<br><br>
+
+                                Great at problem solving and comming up with various solutions for different problems, also<br> a very detail oriented person. 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,9 +156,8 @@
                         <h2>MY PROJECTS</h2>
                         <div class="sub-heading">
                             <p>
-                                Hard work is painful when life is devoid of purpose. But when you live for something <br>
-                                greater than yourself and the gratification of your own ego, then hard work becomes a labor<br>
-                                of love.
+                              Contains most of the bigger projects that I've worked on including<br>
+                              front-end, back-end, and full-stack projects.
                             </p>
                         </div>
                     </div>
@@ -199,15 +257,18 @@
                 </div>
 
 
-                <form action="">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                <form class="contact-form" action="contact.php" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
 
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" style="height: 200px"></textarea>
+                    <textarea name="message" id="message" style="height: 200px" required></textarea>
                     
                     <input type="submit" value="message">
                 </form>

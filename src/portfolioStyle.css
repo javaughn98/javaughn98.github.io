@@ -14,7 +14,7 @@ body {
     height: 4000px;
     background-color: #000;
     color: black;
-    font-family: "Oxygen" , sans-serif;
+    font-family: "Oxygen", sans-serif;
     overflow-y: hidden;
 }
 
@@ -150,7 +150,25 @@ aside nav a:hover {
 
 .links {
     margin: 35px;
-    position:relative
+    position:relative;
+    display: inline-flex;
+}
+
+.links p {
+    color: #b2b2b2;
+}
+
+
+.links a {
+    margin-left: 20px;
+}
+.links a:hover {
+    color: red;
+}
+
+.links a:hover p{
+    color: red;
+    transition: .6s ease-in;
 }
 
 .home .linkedin, .home .linkedin {
@@ -313,14 +331,14 @@ aside nav a:hover {
 }
 
 .container h2, .sub-heading p {
-    color: white;
+    color: #b2b2b2;
 } 
 
 .proj {
     text-align: center;
     position: relative;
     display: inline-block;
-    background: red;
+    background: grey;
     width: 90%;
     height: 500px;
     margin: 20px 0px 50px 10px;
@@ -429,3 +447,35 @@ input[type="submit"]:hover {
     background-color: red;
     color: black;
 }
+
+.contact .container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: transparent;
+    
+}
+
+
+.about img {
+    margin: 5px;
+    width: 15%;
+    height: 40%;
+}
+
+.about .tech-skills, .about .environment, .about .tools {
+    width: 100%;
+    height: 100%;
+    background: rgba(178, 178, 178, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.personal-info {
+    margin-bottom: 50px;
+}
+
+.about h5, .about p{
+    color: #b2b2b2;
+}
+
+
