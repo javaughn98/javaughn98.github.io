@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -259,20 +259,25 @@
                 </div>
 
 
-                <form class="contact-form" action="contact.php" method="post">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email" required>
-
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required>
-
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" style="height: 200px" required></textarea>
+                <form class="contact-form" action="https://formspree.io/javaughn@uoguelph.ca" method="POST">
+                    <label>Full Name</label>
+                    <input class="name" type="text" id="name" name="name" required>
                     
-                    <input type="submit" value="message">
+
+                    <label>E-mail</label>
+                    <input class="email" type="text" id="email" name="email" required>
+                    
+
+                    <label>Subject</label>
+                    <input class="subject" type="text" id="subject" name="subject" required>
+                    
+
+                    <label>Message</label>
+                    <textarea class="message" name="message" id="message" style="height: 200px" required></textarea>
+                    
+                    <div class="status">
+                    </div>
+                    <input class="submit" type="submit" value="send">
                 </form>
             </div>
         </section>

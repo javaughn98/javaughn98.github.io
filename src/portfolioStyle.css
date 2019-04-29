@@ -13,7 +13,7 @@ body {
     background-color: #000;
     color: black;
     font-family: "Oxygen", sans-serif;
-    overflow-y: hidden;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -316,14 +316,14 @@ aside nav a:hover {
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 90%;
-    margin-left: 7%;
+   
 }
 .contact{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/car1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 90%;
-    margin-left: 7%;
+    
 }
 
 .projects {
@@ -331,7 +331,7 @@ aside nav a:hover {
     background-position: center;
     background-attachment: fixed; 
     background-size: 100% 90%;
-    margin-left: 7%;
+    
 
 }
 
@@ -547,26 +547,42 @@ input[type="submit"]:hover {
 }
 
 
-@media screen and (max-width:959px) {
+@media screen and (max-width:850px) {
     .body {
         width: 100%;
+        margin-left: 13%;
+        overflow: hidden;
     }
 
     h5, h2 {
         width: 30%;
         margin-right: 30%;
     }
+    .about {
+        background-size: 100% 90%;
+
+    }
+    .projects {
+        overflow: none;
+    }
+    .contact {
+        overflow: none;
+    }
 
     p{
-        width: 50%;
-        margin-right: 30%;
+        width: 110%;
+        margin-left: 10%;
+        margin-right: 10%; 
+        overflow: none;
     }
 
 
-    
+    aside nav{
+        width: 100%
+    }
 }
 
 @media screen and (max-width:640px) {
-    
+
 }
 
