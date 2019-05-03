@@ -470,7 +470,7 @@ aside nav a:hover {
 }
 
 .project1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/proj1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/proj1.png);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
@@ -478,12 +478,21 @@ aside nav a:hover {
 }
 
 .project2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(images/movieApp.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/movieApp.jpg);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+.project3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/weatherapp.png);
+    background-position: center;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+
 label {
     color: #b2b2b2;
 }
