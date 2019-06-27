@@ -470,7 +470,7 @@ aside nav a:hover {
 }
 
 .project1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/proj1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/proj1.png);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
@@ -478,7 +478,7 @@ aside nav a:hover {
 }
 
 .project2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/movieApp.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/movieApp.jpg);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
@@ -486,7 +486,7 @@ aside nav a:hover {
 }
 
 .project3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/weatherapp.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/weatherapp.png);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
@@ -494,7 +494,7 @@ aside nav a:hover {
 }
 
 .project4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/bookstore.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/bookstore.jpg);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
@@ -502,7 +502,7 @@ aside nav a:hover {
 }
 
 .project5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/shop.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/shop.jpg);
     background-position: center;
     background-size: 100% 500px;
     background-repeat: no-repeat;
