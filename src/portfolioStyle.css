@@ -508,6 +508,13 @@ aside nav a:hover {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+.project6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/resort.jpeg);
+    background-position: center;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
 
 label {
     color: #b2b2b2;
